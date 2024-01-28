@@ -12,7 +12,7 @@
 
 #include "minishell.h"
 
-void	execute_builtin_command(t_mparse *parse, t_shell *m_shell)
+void	execute_builtin_command(t_mparse *parse, t_shell *m_shell) // The All Commands my bash
 {
 	t_mparse	*mparse;
 
